@@ -1,0 +1,41 @@
+body {
+    background-color: #FED8B1;
+}
+
+header {
+    background-color: #6F4E37;
+    width: 100%;
+    padding: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a {
+    margin: 0 5rem;
+    color: #FED8B1;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #FED8B1;
+}
+
+.products {
+    margin: 2%;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    max-width: 20rem;
+}
+
+img {
+    width: 100%;
+}
