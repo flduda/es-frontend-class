@@ -9,11 +9,14 @@ header {
 }
 
 header nav ul {
+    list-style-type: none;
     display: flex;
     justify-content: center;
 }
 
 header nav ul li a {
+    list-style-type: none;
+    text-decoration: none;
     margin: 0 5rem;
     color: #FED8B1;
 }
@@ -33,9 +36,11 @@ header nav ul li a:hover {
 }
 
 .products__item {
+    list-style-type: none;
     max-width: 20rem;
 }
 
 img {
+
     width: 100%;
 }
