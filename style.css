@@ -5,7 +5,8 @@ body {
 header {
     background-color: #6F4E37;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
+   
 }
 
 header nav ul {
@@ -43,4 +44,13 @@ header nav ul li a:hover {
 img {
 
     width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #6F4E37;
+    color: #FED8B1;
+    padding: 1rem;
+    
 }
